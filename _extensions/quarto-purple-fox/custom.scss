@@ -1,0 +1,52 @@
+/*-- scss:defaults --*/
+
+// Border radius for rounded elements
+$border-radius-lg: 15px !default;
+$border-radius-xl: 30px !default;
+
+/*-- scss:rules --*/
+
+// Enhanced callout styling
+.callout {
+  border-radius: $border-radius-xl;
+  padding: 20px;
+  margin: 1.5rem 0;
+  border-left: 5px solid;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  
+  .quarto-dark & {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .callout-header {
+    padding: 12px 20px !important;
+    align-items: center;
+    border-radius: $border-radius-lg !important;
+    font-weight: 600;
+  }
+  
+  .callout-body {
+    padding-top: 10px;
+  }
+  
+  // Callout type specific colors
+  &.callout-tip {
+    border-left-color: #00D4AA;
+  }
+  
+  &.callout-note {
+    border-left-color: #5B9BD5;
+  }
+  
+  &.callout-warning {
+    border-left-color: #F4B942;
+  }
+  
+  &.callout-caution {
+    border-left-color: #F97583;
+  }
+  
+  &.callout-important {
+    border-left-color: #D73A49;
+  }
+}

@@ -1,0 +1,52 @@
+---
+title: "Quarto Purple Fox - Example"
+format:
+  quarto-purple-fox-html: default
+author: "Your Name"
+date: last-modified
+---
+
+## Quarto Purple Fox 🦊
+
+This extension enhances Quarto documents with beautifully styled callouts featuring rounded corners, colored borders, and shadow effects.
+
+## Obsidian-Style Callouts
+
+Use the familiar Obsidian syntax to create different types of callouts:
+
+### Tip Callout
+
+> [!tip] Pro Tip
+> Toggle between light and dark modes using the theme switcher in the top-right corner!
+
+### Note Callout
+
+> [!note] Important Note
+> This extension requires Quarto version 1.8.0 or higher to work properly.
+
+### Warning Callout
+
+> [!warning] Watch Out!
+> Make sure to check your YAML frontmatter for proper formatting before rendering.
+
+### Caution Callout
+
+> [!caution] Be Careful
+> Custom SCSS modifications might override some default styles.
+
+### Important Callout
+
+> [!important] Critical Information
+> Always test your documents in both light and dark modes to ensure consistency.
+
+## Features
+
+- ✨ Rounded corners (30px) for modern appearance
+- 🎨 Colored left borders for each callout type
+- 🌓 Shadow effects that adapt to light/dark mode
+- 🖌️ Obsidian-compatible syntax
+- 📱 Works seamlessly with Quarto's themes
+
+---
+
+**Happy writing!** 🦊✨

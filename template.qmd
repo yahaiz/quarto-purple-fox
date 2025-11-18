@@ -1,0 +1,70 @@
+---
+title: "Getting Started with Purple Fox"
+format:
+  quarto-purple-fox-html: default
+author: "Your Name"
+date: last-modified
+---
+
+## Welcome! 🦊
+
+Welcome to the **Quarto Purple Fox** template! This format extension provides enhanced callout styling with rounded corners, colored borders, and shadow effects.
+
+## Quick Start Guide
+
+### Installation
+
+If you haven't already installed this extension, run:
+
+```bash
+quarto add yahaiz/quarto-purple-fox
+```
+
+### Basic Usage
+
+Simply add the format to your document's YAML header:
+
+```yaml
+---
+title: "My Document"
+format:
+  quarto-purple-fox-html: default
+---
+```
+
+## Key Features
+
+### 🎨 Enhanced Callouts
+
+The extension provides beautifully styled callouts with rounded corners, colored borders, and shadow effects that work in both light and dark modes.
+
+### 🌓 Theme Toggle
+
+Click the theme toggle button in the top-right corner to switch between light and dark modes. Your preference will be saved automatically!
+
+### 📝 Obsidian Callouts
+
+Use Obsidian-style callouts to highlight important information:
+
+> [!tip] Customization
+> You can customize callout colors, border radius, and shadows by editing `_extensions/quarto-purple-fox/custom.scss`.
+
+> [!note] Documentation
+> Check out the [example.qmd](example.qmd) file for a comprehensive showcase of all features.
+
+> [!warning] Version Requirement
+> This extension requires Quarto 1.8.0 or higher.
+
+## Next Steps
+
+1. Check out [example.qmd](example.qmd) to see all callout types
+2. Start writing your own documents with enhanced callouts!
+
+## Resources
+
+- [Quarto Documentation](https://quarto.org/docs/output-formats/html-basics.html)
+- [GitHub Repository](https://github.com/yahaiz/quarto-purple-fox)
+
+---
+
+**Happy writing!** ✨

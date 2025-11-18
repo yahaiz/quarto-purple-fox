@@ -1,0 +1,19 @@
+title: Quarto Purple Fox
+author: yahaiz
+version: 1.0.0
+quarto-required: ">=1.8.0"
+contributes:
+  formats:
+    html:
+      toc: true
+      toc-depth: 3
+      code-fold: false
+      code-tools: false
+      theme:
+        light: [cosmo, custom.scss]
+        dark: [darkly, custom.scss]
+      theme-toggle: true
+      filters:
+        - obsidian-callouts.lua
+      css: []
+      include-in-header: []
