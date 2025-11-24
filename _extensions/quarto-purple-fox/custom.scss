@@ -12,10 +12,10 @@ $border-radius-xl: 30px !default;
   padding: 20px;
   margin: 1.5rem 0;
   border-left: 5px solid;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  // box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   
   .quarto-dark & {
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    // box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   }
 
   .callout-header {
@@ -49,4 +49,9 @@ $border-radius-xl: 30px !default;
   &.callout-important {
     border-left-color: #D73A49;
   }
+}
+
+// Code block styling
+div.sourceCode, pre.sourceCode {
+  border-radius: $border-radius-lg;
 }

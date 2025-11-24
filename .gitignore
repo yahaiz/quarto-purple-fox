@@ -50,3 +50,5 @@ desktop.ini
 .Renviron
 
 **/*.quarto_ipynb
+
+/.luarc.json
